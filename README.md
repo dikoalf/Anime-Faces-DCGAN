@@ -11,8 +11,8 @@ This exploration not only serves as a stepping stone in my learning journey but 
 Kaggle Dataset : https://www.kaggle.com/datasets/soumikrakshit/anime-faces
 
 ## Table of Contents
-- [Installation](##installation)
-- [Usage](##usage)
+- [Installation](#installation)
+- [Usage](#usage)
 - [Libraries and Configuration](#libraries-and-configuration)
 - [Data Collection](#data-collection)
 - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
@@ -364,7 +364,7 @@ with tf.device('/GPU:0'):
     history = trainModelChunks(gan, generator, discriminator, trainData,
                                totalEpochs=epochs, chunkSize=chunkSize, batchSize=128)
 ```
-### Model Evaluation
+## Model Evaluation
 In this section, we evaluate the performance of the trained GAN model by analyzing the loss trends and visually inspecting the generated images. Additionally, we calculate the Fréchet Inception Distance (FID) score to quantitatively assess the quality of the generated images.
 
 1. Plot Model Loss: We plot the loss curves for both the discriminator and generator to understand their training progress over the epochs.
@@ -437,5 +437,5 @@ generatedImagesForFid = generator.predict(noiseForFid)
 fidScore = calculateFid(model, realImagesBatch, generatedImagesForFid)
 print(fidScore)
 ```
-Note:
+## Result
 From the evaluation results, the GAN-generated images closely resemble the images in the dataset used. However, the colors in the images appear slightly faded. This fading could be due to several reasons, such as the model's tendency to average pixel values, which may affect the model's ability to capture vibrant colors accurately. The FID (Fréchet Inception Distance) score remained stable at 5000 from the beginning to the end of the training process, indicating consistent performance throughout the training period.
