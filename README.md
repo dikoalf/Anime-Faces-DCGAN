@@ -17,7 +17,7 @@ Kaggle Dataset : https://www.kaggle.com/datasets/soumikrakshit/anime-faces
 - [Data Collection](#data-collection)
 - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
 - [Model Training](#model-training)
-- [Evaluation](#evaluation)
+- [Evaluation](#model-evaluation)
 - [Results](#results)
 
 ## Installation
