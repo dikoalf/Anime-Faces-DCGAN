@@ -1,7 +1,4 @@
 # Anime-Faces-DCGAN
-
-Baik, sekarang kita sudah memiliki seluruh kode yang diperlukan. Mari kita lanjutkan dan lengkapi README yang telah kita buat sebelumnya:
-
 ```markdown
 # Anime Faces Generator using DCGAN
 
