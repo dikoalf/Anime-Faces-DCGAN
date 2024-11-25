@@ -6,6 +6,8 @@ The core objective of this project is to deepen my understanding of GAN architec
 
 This exploration not only serves as a stepping stone in my learning journey but also contributes to the broader field of generative models. Dive in and join me in uncovering the fascinating world of AI-driven art creation!
 
+Kaggle Dataset : https://www.kaggle.com/datasets/soumikrakshit/anime-faces
+
 ```markdown
 # Anime Faces Generator using DCGAN
 
