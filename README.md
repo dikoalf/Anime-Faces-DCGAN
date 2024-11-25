@@ -30,7 +30,7 @@ To run this project, you need to have Python installed along with the following 
 - Scikit-Image
 - SciPy
 - PSUtil
-
+```
 You can install these libraries using pip:
 ```bash
 pip install tensorflow numpy pandas matplotlib scikit-image scipy psutil
