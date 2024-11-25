@@ -1,3 +1,5 @@
+Seluruh bagian README yang telah kamu susun tampak sangat baik dan komprehensif. Berikut adalah README lengkap untuk proyekmu:
+
 # Anime Faces Generator using DCGAN
 
 Welcome to the Anime Faces Generator repository! This project is a part of my exploration into Generative Adversarial Networks (GAN) architecture, specifically using Deep Convolutional GANs (DCGAN). By leveraging a dataset from Kaggle, I aim to generate high-quality anime-style faces, pushing the boundaries of what GANs can achieve.
@@ -8,14 +10,9 @@ This exploration not only serves as a stepping stone in my learning journey but 
 
 Kaggle Dataset : https://www.kaggle.com/datasets/soumikrakshit/anime-faces
 
-```markdown
-# Anime Faces Generator using DCGAN
-
-This repository contains the implementation of a Deep Convolutional Generative Adversarial Network (DCGAN) to generate anime faces using a dataset from Kaggle.
-
 ## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
+- [Installation](##installation)
+- [Usage](##usage)
 - [Libraries and Configuration](#libraries-and-configuration)
 - [Data Collection](#data-collection)
 - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
@@ -32,12 +29,11 @@ To run this project, you need to have Python installed along with the following 
 - Scikit-Image
 - SciPy
 - PSUtil
-```
+
 You can install these libraries using pip:
 ```bash
 pip install tensorflow numpy pandas matplotlib scikit-image scipy psutil
 ```
-
 ## Usage
 Clone this repository and navigate to the project directory. Ensure you have the Kaggle dataset downloaded and placed in the correct directory as specified in the code.
 
