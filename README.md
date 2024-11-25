@@ -437,5 +437,5 @@ generatedImagesForFid = generator.predict(noiseForFid)
 fidScore = calculateFid(model, realImagesBatch, generatedImagesForFid)
 print(fidScore)
 ```
-## Result
+## Results
 From the evaluation results, the GAN-generated images closely resemble the images in the dataset used. However, the colors in the images appear slightly faded. This fading could be due to several reasons, such as the model's tendency to average pixel values, which may affect the model's ability to capture vibrant colors accurately. The FID (Fréchet Inception Distance) score remained stable at 5000 from the beginning to the end of the training process, indicating consistent performance throughout the training period.
